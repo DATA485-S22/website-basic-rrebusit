@@ -1,11 +1,19 @@
-name: "my-website"
+name: "Rica's Website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Rica Rebusit"
   left:
     - text: "Home"
       href: index.html
+    - text: "Blog Posts"
+      menue:
+      - text: "First Blog"
+        href: blog.html
+      - text: "Tidy Model Tutorial"
+        href: tidymodel.html
+      - text: "Stroke Classification"
+        href: classification.html
   right:
     - text: "Github"
       icon: fa-github
-      href: https://github.com/
+      href: https://github.com/rrebusit
